@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="ChromeTestCase(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="dressTestNG.CartshopCost">
+        <methods>
+          <include name="cartshCost"/>
+        </methods>
+      </class> <!-- dressTestNG.CartshopCost -->
+    </classes>
+  </test> <!-- ChromeTestCase(failed) -->
+  <test thread-count="5" name="FirefoxTestCase(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="dressTestNG.CartshopCost">
+        <methods>
+          <include name="cartshCost"/>
+        </methods>
+      </class> <!-- dressTestNG.CartshopCost -->
+    </classes>
+  </test> <!-- FirefoxTestCase(failed) -->
+</suite> <!-- Failed suite [Suite] -->

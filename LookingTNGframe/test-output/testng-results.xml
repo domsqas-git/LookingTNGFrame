@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="22" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="297104" started-at="2019-08-07T00:54:53Z" finished-at="2019-08-07T00:59:50Z">
+    <groups>
+    </groups>
+    <test name="ChromeTestCase" duration-ms="140696" started-at="2019-08-07T00:54:53Z" finished-at="2019-08-07T00:57:14Z">
+      <class name="dressTestNG.SignIn">
+        <test-method status="PASS" signature="sigIn()[pri:0, instance:dressTestNG.SignIn@548a9f61]" name="sigIn" duration-ms="22955" started-at="2019-08-07T00:56:50Z" finished-at="2019-08-07T00:57:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sigIn -->
+      </class> <!-- dressTestNG.SignIn -->
+      <class name="dressTestNG.ContactUs">
+        <test-method status="PASS" signature="contcUs()[pri:0, instance:dressTestNG.ContactUs@d2cc05a]" name="contcUs" duration-ms="6333" started-at="2019-08-07T00:56:34Z" finished-at="2019-08-07T00:56:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contcUs -->
+      </class> <!-- dressTestNG.ContactUs -->
+      <class name="dressTestNG.ChiffonDress">
+        <test-method status="PASS" signature="chiffonDr()[pri:0, instance:dressTestNG.ChiffonDress@7dc7cbad]" name="chiffonDr" duration-ms="23562" started-at="2019-08-07T00:56:10Z" finished-at="2019-08-07T00:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chiffonDr -->
+      </class> <!-- dressTestNG.ChiffonDress -->
+      <class name="dressTestNG.ThirdDress">
+        <test-method status="PASS" signature="thirdDr()[pri:0, instance:dressTestNG.ThirdDress@4520ebad]" name="thirdDr" duration-ms="18053" started-at="2019-08-07T00:55:16Z" finished-at="2019-08-07T00:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdDr -->
+      </class> <!-- dressTestNG.ThirdDress -->
+      <class name="dressTestNG.FirstDress">
+        <test-method status="PASS" signature="firstDr()[pri:0, instance:dressTestNG.FirstDress@735b5592]" name="firstDr" duration-ms="6710" started-at="2019-08-07T00:55:05Z" finished-at="2019-08-07T00:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstDr -->
+      </class> <!-- dressTestNG.FirstDress -->
+      <class name="dressTestNG.DressesTab">
+        <test-method status="PASS" signature="dresstab()[pri:0, instance:dressTestNG.DressesTab@62ee68d8]" name="dresstab" duration-ms="3573" started-at="2019-08-07T00:55:02Z" finished-at="2019-08-07T00:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dresstab -->
+      </class> <!-- dressTestNG.DressesTab -->
+      <class name="dressTestNG.SecondDress">
+        <test-method status="PASS" signature="secondDr()[pri:0, instance:dressTestNG.SecondDress@58651fd0]" name="secondDr" duration-ms="4324" started-at="2019-08-07T00:55:12Z" finished-at="2019-08-07T00:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondDr -->
+      </class> <!-- dressTestNG.SecondDress -->
+      <class name="dressTestNG.CartshopCost">
+        <test-method status="FAIL" signature="cartshCost()[pri:0, instance:dressTestNG.CartshopCost@4f933fd1]" name="cartshCost" duration-ms="9808" started-at="2019-08-07T00:56:40Z" finished-at="2019-08-07T00:56:50Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product_6_31_0_198772"]/td[2]/p/a"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-SQDCUHU', ip: '10.0.0.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54534}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5924142cd4c5451566af2762d6d504aa
+*** Element info: {Using=xpath, value=//*[@id="product_6_31_0_198772"]/td[2]/p/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product_6_31_0_198772"]/td[2]/p/a"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-SQDCUHU', ip: '10.0.0.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54534}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5924142cd4c5451566af2762d6d504aa
+*** Element info: {Using=xpath, value=//*[@id="product_6_31_0_198772"]/td[2]/p/a}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at dressTestNG.CartshopCost.cartshCost(CartshopCost.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartshCost -->
+      </class> <!-- dressTestNG.CartshopCost -->
+      <class name="dressTestNG.FourthDress">
+        <test-method status="PASS" signature="fourthDr()[pri:0, instance:dressTestNG.FourthDress@5419f379]" name="fourthDr" duration-ms="35817" started-at="2019-08-07T00:55:34Z" finished-at="2019-08-07T00:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthDr -->
+      </class> <!-- dressTestNG.FourthDress -->
+      <class name="dressTestNG.MainDress">
+        <test-method status="PASS" signature="Open_Browser_Testcase1(java.lang.String)[pri:0, instance:dressTestNG.MainDress@9629756]" name="Open_Browser_Testcase1" duration-ms="8565" started-at="2019-08-07T00:54:53Z" finished-at="2019-08-07T00:55:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser_Testcase1 -->
+      </class> <!-- dressTestNG.MainDress -->
+      <class name="dressTestNG.CloseBrowser">
+        <test-method status="PASS" signature="closeBrws()[pri:0, instance:dressTestNG.CloseBrowser@1753acfe]" name="closeBrws" duration-ms="910" started-at="2019-08-07T00:57:13Z" finished-at="2019-08-07T00:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrws -->
+      </class> <!-- dressTestNG.CloseBrowser -->
+    </test> <!-- ChromeTestCase -->
+    <test name="FirefoxTestCase" duration-ms="156318" started-at="2019-08-07T00:57:14Z" finished-at="2019-08-07T00:59:50Z">
+      <class name="dressTestNG.SignIn">
+        <test-method status="PASS" signature="sigIn()[pri:0, instance:dressTestNG.SignIn@47c62251]" name="sigIn" duration-ms="27386" started-at="2019-08-07T00:59:20Z" finished-at="2019-08-07T00:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sigIn -->
+      </class> <!-- dressTestNG.SignIn -->
+      <class name="dressTestNG.ContactUs">
+        <test-method status="PASS" signature="contcUs()[pri:0, instance:dressTestNG.ContactUs@27efef64]" name="contcUs" duration-ms="9088" started-at="2019-08-07T00:58:57Z" finished-at="2019-08-07T00:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contcUs -->
+      </class> <!-- dressTestNG.ContactUs -->
+      <class name="dressTestNG.ChiffonDress">
+        <test-method status="PASS" signature="chiffonDr()[pri:0, instance:dressTestNG.ChiffonDress@59f99ea]" name="chiffonDr" duration-ms="24437" started-at="2019-08-07T00:58:32Z" finished-at="2019-08-07T00:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chiffonDr -->
+      </class> <!-- dressTestNG.ChiffonDress -->
+      <class name="dressTestNG.ThirdDress">
+        <test-method status="PASS" signature="thirdDr()[pri:0, instance:dressTestNG.ThirdDress@68c4039c]" name="thirdDr" duration-ms="18715" started-at="2019-08-07T00:57:38Z" finished-at="2019-08-07T00:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdDr -->
+      </class> <!-- dressTestNG.ThirdDress -->
+      <class name="dressTestNG.FirstDress">
+        <test-method status="PASS" signature="firstDr()[pri:0, instance:dressTestNG.FirstDress@26653222]" name="firstDr" duration-ms="6917" started-at="2019-08-07T00:57:26Z" finished-at="2019-08-07T00:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstDr -->
+      </class> <!-- dressTestNG.FirstDress -->
+      <class name="dressTestNG.DressesTab">
+        <test-method status="PASS" signature="dresstab()[pri:0, instance:dressTestNG.DressesTab@5e5792a0]" name="dresstab" duration-ms="3621" started-at="2019-08-07T00:57:22Z" finished-at="2019-08-07T00:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dresstab -->
+      </class> <!-- dressTestNG.DressesTab -->
+      <class name="dressTestNG.SecondDress">
+        <test-method status="PASS" signature="secondDr()[pri:0, instance:dressTestNG.SecondDress@3532ec19]" name="secondDr" duration-ms="4636" started-at="2019-08-07T00:57:33Z" finished-at="2019-08-07T00:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondDr -->
+      </class> <!-- dressTestNG.SecondDress -->
+      <class name="dressTestNG.FourthDress">
+        <test-method status="PASS" signature="fourthDr()[pri:0, instance:dressTestNG.FourthDress@ae45eb6]" name="fourthDr" duration-ms="35931" started-at="2019-08-07T00:57:56Z" finished-at="2019-08-07T00:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthDr -->
+      </class> <!-- dressTestNG.FourthDress -->
+      <class name="dressTestNG.CartshopCost">
+        <test-method status="FAIL" signature="cartshCost()[pri:0, instance:dressTestNG.CartshopCost@6f7fd0e6]" name="cartshCost" duration-ms="14401" started-at="2019-08-07T00:59:06Z" finished-at="2019-08-07T00:59:20Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //*[@id="product_6_31_0_198772"]/td[2]/p/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-SQDCUHU', ip: '10.0.0.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8916, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1226f034-6752-4c1a-8041-60edf5cab11a
+*** Element info: {Using=xpath, value=//*[@id="product_6_31_0_198772"]/td[2]/p/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id="product_6_31_0_198772"]/td[2]/p/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-SQDCUHU', ip: '10.0.0.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8916, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1226f034-6752-4c1a-8041-60edf5cab11a
+*** Element info: {Using=xpath, value=//*[@id="product_6_31_0_198772"]/td[2]/p/a}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at dressTestNG.CartshopCost.cartshCost(CartshopCost.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartshCost -->
+      </class> <!-- dressTestNG.CartshopCost -->
+      <class name="dressTestNG.MainDress">
+        <test-method status="PASS" signature="Open_Browser_Testcase1(java.lang.String)[pri:0, instance:dressTestNG.MainDress@3ffc5af1]" name="Open_Browser_Testcase1" duration-ms="8487" started-at="2019-08-07T00:57:14Z" finished-at="2019-08-07T00:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser_Testcase1 -->
+      </class> <!-- dressTestNG.MainDress -->
+      <class name="dressTestNG.CloseBrowser">
+        <test-method status="PASS" signature="closeBrws()[pri:0, instance:dressTestNG.CloseBrowser@3e6fa38a]" name="closeBrws" duration-ms="2668" started-at="2019-08-07T00:59:47Z" finished-at="2019-08-07T00:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrws -->
+      </class> <!-- dressTestNG.CloseBrowser -->
+    </test> <!-- FirefoxTestCase -->
+  </suite> <!-- Suite -->
+</testng-results>

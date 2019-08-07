@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="ChromeTestCase">
+  
+  <parameter name="browser" value="chrome"/>
+  <classes>
+  <class name="dressTestNG.MainDress"/>
+  <class name="dressTestNG.DressesTab"/>
+  <class name="dressTestNG.FirstDress"/>
+  <class name="dressTestNG.SecondDress"/>
+  <class name="dressTestNG.ThirdDress"/>
+  <class name="dressTestNG.FourthDress"/>
+  <class name="dressTestNG.ChiffonDress"/>
+  <class name="dressTestNG.ContactUs"/>
+  <class name="dressTestNG.CartshopCost"/>
+  <class name="dressTestNG.SignIn"/>
+  <class name="dressTestNG.CloseBrowser"/>
+  
+  </classes>
+  </test> 
+  
+   <test thread-count="5" name="FirefoxTestCase">
+  
+  <parameter name="browser" value="firefox"/>
+  <classes>
+  <class name="dressTestNG.MainDress"/>
+   <class name="dressTestNG.DressesTab"/>
+   <class name="dressTestNG.FirstDress"/>
+   <class name="dressTestNG.SecondDress"/>
+   <class name="dressTestNG.ThirdDress"/>
+   <class name="dressTestNG.FourthDress"/>
+   <class name="dressTestNG.ChiffonDress"/>
+   <class name="dressTestNG.ContactUs"/>
+   <class name="dressTestNG.CartshopCost"/>
+   <class name="dressTestNG.SignIn"/>
+   <class name="dressTestNG.CloseBrowser"/>
+  
+  </classes>
+  </test> 
+</suite> <!-- Suite -->
